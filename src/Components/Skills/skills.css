@@ -9,14 +9,30 @@
   padding: 0 5px;
 }
 
-.skill-box {
-   height:200px;
-  padding: 1em 2em 2em;
-  //border: solid red;
-  border-width: 3px;
-  text-align: center
+.experience-box {
+height: 200px;
+width: 500px;
+border: 1px solid #000;
+padding: 20px;
+text-align: center;
+margin: 5px;
 }
-
+.education-box {
+height: 200px;
+width: 500px;
+border: 1px solid #000;
+padding: 20px;
+text-align: center;
+margin: 5px;
+}
+.hobbiestoolskill-box {
+height: 250px;
+width: 350px;
+border: 1px solid #000;
+padding: 20px;
+text-align: center;
+margin: 5px;
+}
 .row {margin: 0 -5px;}
 
 /* Clear floats after the columns */

@@ -3,7 +3,7 @@ import React from "react";
   render()
   {
     return (<div class="row">
-    <div className="skill-box">
+    <div className="hobbiestoolskill-box">
               <div class="column">
                 <div class="card">
                   <p><i class="fa fa-user"></i></p>

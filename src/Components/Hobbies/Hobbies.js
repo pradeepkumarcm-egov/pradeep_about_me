@@ -7,7 +7,7 @@ class Hobbies extends React.Component {
   render()
   {
     return (
-    <div className="skill-box">
+    <div className="hobbiestoolskill-box">
               <div class="column">
                 <div class="card">
                   <p><i class="fa fa-user"></i></p>
@@ -17,7 +17,7 @@ class Hobbies extends React.Component {
                  <p align="left"><img src={logo} width="20" height="20" className="image-style" ></img></p>
              </div>
               </div>
- 
+
   </div>)
   }
 }

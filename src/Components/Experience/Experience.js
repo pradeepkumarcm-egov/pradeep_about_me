@@ -1,10 +1,10 @@
 import React from "react";
- 
+
 class Experience extends React.Component {
   render()
   {
     return (<div class="row">
-    <div className="skill-box">
+    <div className="experience-box">
               <div class="column">
                 <div class="card">
                   <p><i class="fa fa-user"></i></p>
