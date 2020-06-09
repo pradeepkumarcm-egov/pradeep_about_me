@@ -1,0 +1,60 @@
+.header {
+  color: pink
+}
+
+.horizontal-layout {
+  display: flex;
+  flex-direction: row
+}
+.horizontal-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+.image-style {
+  border-radius: 50%;
+}
+
+.achievement-box{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  }
+.userImage-box {
+  background:#ccc;
+  width: 50%;
+  height:150px;
+  padding: 1em 2em 2em;
+  border: solid red;
+  border-width: 3px;
+  text-align: left
+}
+.horizontal-layout-full {
+  display: flex;
+  flex-direction: row;
+  border: solid red;
+  padding: 1em 2em 2em;
+  border: solid red;
+  border-width: 3px;
+}
+.active-box {
+  background:white;
+  width: 25%;
+  height:150px;
+  text-align: center;
+}
+
+.recorved-box {
+  background: gree;
+  width: 25%;
+  height:150px;
+  text-align: center
+}
+
+.death-box {
+  background: ;
+  width: 50%;
+  height:150px;
+  text-align: center
+}
