@@ -1,24 +1,17 @@
 import React from "react";
 import logo from '../../paris.jpg';
 import logo1 from '../../logo.svg';
+import Task from "../Task/Task";
 
 
 class Hobbies extends React.Component {
   render()
   {
+    const {tasks}=this.props;
+    const filteredHobbies=tasks.filter((task)=>{return task.code==="Hobbies"});
     return (
-    <div className="hobbiestoolskill-box">
-              <div class="column">
-                <div class="card">
-                  <p><i class="fa fa-user"></i></p>
-                   <h3 >Hobbies</h3>
-                 <p align="left"><img src={logo} width="20" height="20" className="image-style" ></img></p>
-                 <p align="left"><img src={logo1} width="30" height="20" className="image-style" ></img></p>
-                 <p align="left"><img src={logo} width="20" height="20" className="image-style" ></img></p>
-             </div>
-              </div>
-
-  </div>)
+        <Task tasks={filteredHobbies} headerName="Hobbies"/>
+    )
   }
 }
 
